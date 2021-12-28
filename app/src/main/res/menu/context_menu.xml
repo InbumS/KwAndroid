@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="개발자 이름"
+        android:id="@+id/maker"/>
+    <item
+        android:title="출신지"
+        android:id="@+id/hometown"/>
+    <item
+        android:title="소속"
+        android:id="@+id/belong"/>
+    <item
+        android:title="좋아하는 카페인 음료"
+        android:id="@+id/favorite"/>
+    <item
+        android:title="전화번호"
+        android:id="@+id/tel"/>
+</menu>

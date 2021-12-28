@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--옵션메뉴 구현-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="등록"
+        android:id="@+id/enroll"
+        android:enabled="true"
+        android:icon="@drawable/enroll"/>
+    <item android:title="초기화"
+        android:id="@+id/reset"
+        android:enabled="true"
+        android:icon="@drawable/delete"/>
+    <item android:title="돌아가기"
+        android:id="@+id/back"
+        android:enabled="true"
+        android:icon="@drawable/back"/>
+
+</menu>

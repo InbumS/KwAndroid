@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragmentlayout">
+
+    </ListView>
+
+    <LinearLayout
+    android:id="@+id/fragmentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true">
+    <EditText
+        android:id="@+id/f3edt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="추가할 항목입력"/>
+    <EditText
+        android:id="@+id/f3edt2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="칼로리 입력"
+        />
+    <Button
+        android:id="@+id/f3btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="추가"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

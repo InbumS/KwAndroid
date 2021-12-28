@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#B8997C"
+        android:fontFamily="@font/bm"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/information"
+        android:text="신체정보 입력" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:textColor="#111111"
+        android:fontFamily="@font/bm"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/searchs"
+        android:text="카페인 식품 선택" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:background="#B8997C"
+        android:fontFamily="@font/bm"
+        android:drawableLeft="@drawable/statics"
+        android:text="나의 카페인 분석" />
+
+
+</LinearLayout>
